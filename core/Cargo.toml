@@ -1,0 +1,11 @@
+[package]
+name = "scan-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+k256 = { version = "0.13", default-features = false, features = ["arithmetic"] }
+sha2 = "0.10"
+ripemd = "0.1"
+bs58 = { version = "0.5", features = ["check"] }
+hex = "0.4"
